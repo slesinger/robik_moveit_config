@@ -34,6 +34,67 @@
         <joint name="shoulder_joint" value="0" />
         <joint name="yaw_joint" value="-0.148" />
     </group_state>
+    <group_state name="test0" group="arm">
+        <joint name="elbow_joint" value="0" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="0" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test1" group="arm">
+        <joint name="elbow_joint" value="0" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test2" group="arm">
+        <joint name="elbow_joint" value="-1.570796327" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test3" group="arm">
+        <joint name="elbow_joint" value="-1.570796327" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="-1.8675023" />
+    </group_state>
+    <group_state name="test4" group="arm">
+        <joint name="elbow_joint" value="-1.570796327" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="1.099557429" />
+    </group_state>
+    <group_state name="test5" group="arm">
+        <joint name="elbow_joint" value="-1.919862177" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test6" group="arm">
+        <joint name="elbow_joint" value="0.6981317008" />
+        <joint name="roll_joint" value="0" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test7" group="arm">
+        <joint name="elbow_joint" value="0" />
+        <joint name="roll_joint" value="-1.570796327" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test8" group="arm">
+        <joint name="elbow_joint" value="0" />
+        <joint name="roll_joint" value="1.570796327" />
+        <joint name="shoulder_joint" value="1.570796327" />
+        <joint name="yaw_joint" value="0" />
+    </group_state>
+    <group_state name="test9" group="gripper">
+        <joint name="clamp_joint" value="0.6981317008" />
+    </group_state>
+    <group_state name="test10" group="gripper">
+        <joint name="clamp_joint" value="0" />
+    </group_state>
+
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="eef" parent_link="roll_link" group="gripper" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
