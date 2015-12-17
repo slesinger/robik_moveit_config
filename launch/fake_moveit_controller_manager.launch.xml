@@ -7,4 +7,3 @@
   <rosparam file="$(find robik_moveit_config)/config/fake_controllers.yaml"/>
 
 </launch>
-
