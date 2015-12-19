@@ -5,4 +5,4 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/robik.srdf
   CONFIG:
-    generated_timestamp: 1450362565
+    generated_timestamp: 1450548462

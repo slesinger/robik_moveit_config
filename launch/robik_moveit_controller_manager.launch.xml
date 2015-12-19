@@ -14,5 +14,5 @@
   
   <!-- load controller_list and controller_manager_ns -->
   <rosparam file="$(find robik_moveit_config)/config/robik_controllers.yaml"/>
-
+ 
 </launch>
