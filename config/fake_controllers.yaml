@@ -5,6 +5,7 @@ controller_list:
       - shoulder_joint
       - elbow_joint
       - roll_joint
+      - clamp_joint
   - name: fake_gripper_controller
     joints:
       - clamp_joint
